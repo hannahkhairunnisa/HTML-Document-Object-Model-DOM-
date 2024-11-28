@@ -28,20 +28,20 @@
 // const list = "<ol><li>ayam goreng</li><li>ayam rebus</i></ol>"
 // nodeP.innerHTML = list
 
-// node style
-const nodeH1 = document.getElementById("h1")
-nodeH1.style.fontFamily = "Consolas"
-nodeH1.style.backgroundColor = "Gold"
-nodeH1.style.textShadow = "10px 10px 10px"
-
-// // memanipulasi atribut
+// // node style
 // const nodeH1 = document.getElementById("h1")
-// nodeH1.getAttribute("id")
+// nodeH1.style.fontFamily = "Consolas"
+// nodeH1.style.backgroundColor = "Gold"
+// nodeH1.style.textShadow = "10px 10px 10px"
 
-// const nodeSection = document.getElementById("a")
-// const nodeP1 = nodeSection.querySelector("P")
-// nodeP1.setAttribute("id", "P1")
+// memanipulasi atribut
+const nodeH1 = document.getElementById("h1")
+nodeH1.getAttribute("id")
 
-// const nodeDiv2 = document.getElementById("container2")
-// const nodeUl = nodeDiv2.querySelector("ul")
-// nodeUl.removeAttribute("id")
+const nodeSection = document.getElementById("a")
+const nodeP1 = nodeSection.querySelector("P")
+nodeP1.setAttribute("id", "P1")
+
+const nodeDiv2 = document.getElementById("container2")
+const nodeUl = nodeDiv2.querySelector("ul")
+nodeUl.removeAttribute("id")
