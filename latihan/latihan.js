@@ -1,12 +1,12 @@
-// // nomor 1
-// const div = document.getElementsByTagName("div")
-// div[0].style.backgroundColor = "Blue"
-// div[1].style.backgroundColor = "Blue"
+// nomor 1
+const div = document.getElementsByTagName("div")
+div[0].style.backgroundColor = "Pink"
+div[1].style.backgroundColor = "Pink"
 
-// // nomor 2
-// const aksesId = document.getElementById("a")
-// const pilihAtribut = aksesId.querySelector("a[href='#']")
-// pilihAtribut.innerHTML = "<a href=https://www.google.com>Link</a>"
+// nomor 2
+const aksesId = document.getElementById("a")
+const pilihAtribut = aksesId.querySelector("a[href='#']")
+pilihAtribut.innerHTML = "<a href=https://www.google.com>Link</a>"
 
 // nomor 3
 const list = document.querySelectorAll("li")
